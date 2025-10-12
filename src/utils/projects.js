@@ -10,7 +10,7 @@ const projects = [
 
     { id: 3, picture: whatsApp, title: "WhatsApp Clone", description: "The MERN Stack WhatsApp Clone is a fully responsive real-time chat application built with MongoDB, Express.js, React.js, and Node.js. It features Google authentication for secure login and supports one-to-one real-time messaging using Socket.io for instant communication.", gitHub: "https://github.com/Touheed0/WhatsApp-Clone", demo: "https://whatsapp-clone-frontend-tqbv.onrender.com" },
 
-    { id: 4, picture: portfolio, title: "Portfolio Website", description: "The React Portfolio Website is a fully responsive personal portfolio showcasing Home, About, Projects, Resume, and other sections. Built with React.js, it features a modern UI and smooth navigation to present skills, experience, and projects professionally across all devices.", gitHub: "", demo: "" },
+    { id: 4, picture: portfolio, title: "Portfolio Website", description: "The React Portfolio Website is a fully responsive personal portfolio showcasing Home, About, Projects, Resume, and other sections. Built with React.js, it features a modern UI and smooth navigation to present skills, experience, and projects professionally across all devices.", gitHub: "https://github.com/Touheed0/Portfolio.git", demo: "/" },
 ]
 
 export default projects;
