@@ -3,6 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import resume from "../../assets/Touheed Ahmad Resume.pdf";
 import resumePage1 from "../../assets/Resume Page 1.jpeg";
 import resumePage2 from "../../assets/Resume Page 2.jpeg";
+import resumePage3 from "../../assets/Resume Page 3.jpeg";
 
 // Styling
 const Container = styled(Box)(({ theme }) => ({
@@ -60,6 +61,7 @@ const Resume = () => {
 
             <ResumeImage src={resumePage1} alt="Resume Page 1" />
             <ResumeImage src={resumePage2} alt="Resume Page 2" />
+            <ResumeImage src={resumePage3} alt="Resume Page 3" />
 
 
             <DownloadButton
