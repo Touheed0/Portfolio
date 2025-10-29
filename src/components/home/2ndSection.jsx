@@ -99,7 +99,7 @@ const SecondSection = () => {
                     <SocialIconsBox>
                         <Link to="https://github.com/Touheed0" target="blank"><GitHubIcon /></Link>
                         <Link to="https://www.facebook.com/tuheed.ahmad.9421450" target="blank"><FacebookIcon /></Link>
-                        <Link to=""><LinkedInIcon /></Link>
+                        <Link to="https://www.linkedin.com/in/touheed-ahmad-269746387" target="blank"><LinkedInIcon /></Link>
                         <Link to="https://www.instagram.com/touheed____ahmad/" target="blank"><InstagramIcon /></Link>
                     </SocialIconsBox>
                 </SecondContainer>
