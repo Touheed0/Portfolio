@@ -57,7 +57,7 @@ const Footer = () => {
             <SocialIcons>
                 <Link to="https://github.com/Touheed0" target="blank"><GitHub fontSize="small" /></Link>
                 <Link to="https://www.facebook.com/tuheed.ahmad.9421450" target="blank"><Facebook fontSize="small" /></Link>
-                <Link to="https://www.linkedin.com/in/touheed-ahmad-269746387" target="blank"><LinkedIn fontSize="small" /></Link>
+                <Link to="https://www.linkedin.com/in/TouheedAhmad/" target="blank"><LinkedIn fontSize="small" /></Link>
                 <Link to="https://www.instagram.com/touheed____ahmad/" target="blank"><Instagram fontSize="small" /></Link>
             </SocialIcons>
         </FooterContainer>
