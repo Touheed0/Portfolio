@@ -1,4 +1,4 @@
-import { SiPostman, SiMongodb, SiMaterialdesign } from "react-icons/si";
+import { SiPostman, SiMongodb, SiMaterialdesign, SiShadcnui, SiClerk, SiGoogleauthenticator, SiSupabase } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaGithub, FaWindows, FaCss3Alt } from "react-icons/fa";
 
@@ -10,6 +10,10 @@ const toolsData = [
     { id: 5, icon: FaCss3Alt },        // CSS
     { id: 6, icon: FaGithub },         // GitHub
     { id: 7, icon: FaWindows },       // Windows
+    { id: 8, icon: SiShadcnui },    // Shadcn Ui
+    { id: 9, icon: SiClerk },    // Clerk
+    { id: 10, icon: SiGoogleauthenticator },    // Google Authenticater
+    { id: 11, icon: SiSupabase },    // Supabase 
 ];
 
 export default toolsData;
