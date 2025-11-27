@@ -12,16 +12,18 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Container = styled(Box)(({ theme }) => ({
     width: "80%",
     margin: "auto",
-    height: "100vh",
+    minHeight: "100vh",
     // background: "aqua",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-evenly",
+    gap: "40px",
 
     [theme.breakpoints.down("md")]: {
-        width: "100%",
-        height: "180vh",
+        width: "90%",
+        minHeight: "140vh",
+        gap: "30px",
         // background: "aqua",
     }
 }))
@@ -30,21 +32,40 @@ const FirstContainer = styled(Box)(({ theme }) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+    width: "100%",
+    gap: "40px",
 
     [theme.breakpoints.down("md")]: {
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        textAlign: "center",
+        gap: "20px",
     }
 }))
 
-const Details = styled(Box)`
-    &>p{
-        font-size: 18px;
-        padding: 12px 0;
-        text-align: justify;
+const Details = styled(Box)(({ theme }) => ({
+    "& > p": {
+        fontSize: "18px",
+        padding: "10px 0",
+        textAlign: "justify",
+
+        [theme.breakpoints.down("md")]: {
+            fontSize: "15px",
+            padding: "8px 0"
+        }
     }
-`
+}));
+
+const AvatarImg = styled("img")(({ theme }) => ({
+    width: "320px",
+    maxWidth: "100%",
+    height: "auto",
+
+    [theme.breakpoints.down("md")]: {
+        width: "260px"
+    }
+}));
 
 const SecondContainer = styled(Box)`
     display: flex;
@@ -88,7 +109,7 @@ const SecondSection = () => {
                     </Box>
 
                     <Box>
-                        <img src={DPImage} alt="Avatar Image" />
+                        <AvatarImg src={DPImage} alt="Avatar Image" />
                     </Box>
                 </FirstContainer>
 
