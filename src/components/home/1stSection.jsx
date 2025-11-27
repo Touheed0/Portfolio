@@ -5,16 +5,18 @@ import ProfileImage from "../../assets/home-main.svg";
 const Container = styled(Box)(({ theme }) => ({
     display: "flex",
     width: "80%",
-    height: "100vh",
     margin: "auto",
     alignItems: "center",
     justifyContent: "space-between",
+    padding: "60px 0",
+    gap: "40px",
     // background: "silver",
 
     [theme.breakpoints.down("md")]: {
         flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
+        textAlign: "center",
+        gap: "20px",
+        padding: "40px 0",
     }
 }))
 
@@ -29,11 +31,13 @@ const SkillHeading = styled(Typography)(({ theme }) => ({
 }))
 
 const ProfilePicture = styled("img")(({ theme }) => ({
-    width: 450,
+    width: 420,
+    maxWidth: "100%",
     objectFit: "cover",
 
     [theme.breakpoints.down("md")]: {
-        width: 400
+        width: 400,
+        // background: "silver",
     },
 }))
 
