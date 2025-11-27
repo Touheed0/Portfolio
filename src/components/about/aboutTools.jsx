@@ -8,14 +8,8 @@ const Container = styled(Box)(({ theme }) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center",
     gap: "20px",
-    height: "100vh",
-    // backgroundColor: "silver",
-
-    [theme.breakpoints.down("md")]: {
-        height: "100vh",
-    },
+    padding: "50px 0",
 }));
 
 const IconBox = styled(Box)(({ theme }) => ({
