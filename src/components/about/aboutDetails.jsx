@@ -4,22 +4,21 @@ import AboutPicture from "../../assets/about.png";
 //Styling
 const MainContainer = styled(Box)`
     width: 100%;
+    padding: 50px 0;
 `
 
 const Conatainer = styled(Box)(({ theme }) => ({
     width: "80%",
-    height: "90vh",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     margin: "auto",
+    gap: "40px",
 
     [theme.breakpoints.down("md")]: {
-        flexDirection: "column",
-        justifyContent: "center",
-        gap: 50,
-        height: "120vh",
-        // background:"silver",
+        flexDirection: "column-reverse",
+        textAlign: "center",
+        gap: "30px",
     }
 }))
 
