@@ -16,7 +16,7 @@ const Conatainer = styled(Box)(({ theme }) => ({
     gap: "40px",
 
     [theme.breakpoints.down("md")]: {
-        flexDirection: "column-reverse",
+        flexDirection: "column",
         textAlign: "center",
         gap: "30px",
     }
