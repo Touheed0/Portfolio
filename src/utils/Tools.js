@@ -1,4 +1,4 @@
-import { SiPostman, SiMongodb, SiMaterialdesign, SiShadcnui, SiClerk, SiGoogleauthenticator, SiSupabase } from "react-icons/si";
+import { SiPostman, SiMongodb, SiMaterialdesign, SiShadcnui, SiClerk, SiGoogleauthenticator, SiSupabase, SiRender, SiVercel } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaGithub, FaWindows, FaCss3Alt } from "react-icons/fa";
 
@@ -14,6 +14,8 @@ const toolsData = [
     { id: 9, icon: SiClerk },    // Clerk
     { id: 10, icon: SiGoogleauthenticator },    // Google Authenticater
     { id: 11, icon: SiSupabase },    // Supabase 
+    { id: 12, icon: SiRender },    // Render
+    { id: 13, icon: SiVercel },    // Vercel 
 ];
 
 export default toolsData;
